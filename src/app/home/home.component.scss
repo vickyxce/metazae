@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+.firstrow{
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.firstrowmin{
+  min-height: 600px;
+  background-color: #0000001a;
+  color: rgb(235, 235, 235);
+}
+
+.secondrowmin
+{
+  min-height: 600px;
+  background-color: #000000bd;
+  color: rgb(235, 235, 235);
+}
+.blackbg{
+  background-color: black;
+}
