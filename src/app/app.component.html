@@ -83,8 +83,20 @@
 </style>
 
 
-<mat-toolbar color="dark" class="bg-dark text-light">
-  <span [routerLink]="'home'">MetaZae</span>
+<mat-toolbar>
+  <span [routerLink]="'home'">
+    <div>
+      <span style="padding: 8px 0 8px 8px; background-color: #ffffff; color: #151515; font-size: larger;">
+        META
+      </span>
+      <span style="padding: 8px 8px 8px 1px; background-color: #272727; color: #ffffff; font-size: larger;">
+        ZAE
+      </span>
+    </div>
+    <!--
+<img src="/assets/images/nav_logo.png" id="nav_logo"/>
+    -->
+  </span>
   <span class="example-spacer"></span>
   <button mat-button [routerLink]="'case'" routerLinkActive="active-link">Case Studies</button>
   <button mat-button [routerLink]="'projects'" routerLinkActive="active-link">Projects</button>
@@ -97,11 +109,23 @@
 
 </div>
 <div class="col">
-  <div class="container d-flex text-light justify-content-center footer">
+  <div class="d-flex justify-content-center footer">
     <div class="mt-4 mb-3">
-      <h3>&copy; MetaZae</h3>
-      <mat-icon>facebook</mat-icon>
-      <mat-icon>link</mat-icon>
+      <h3 class="text-light">&copy; MetaZae</h3>
+      <ul class="" style="list-style-type:none; font-size: 2.4rem; margin-left: -10px;">
+        <li class="animate-intro" class="footer_social">
+            <a href="https://www.facebook.com/MetaxZae" class="text-light "><i class="fa fa-facebook-square"></i></a>
+        </li>
+        <li class="animate-intro" class="footer_social">
+            <a href="#" class="text-light "><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="animate-intro" class="footer_social">
+            <a href="https://www.instagram.com/meta.zae/" class="text-light "><i class="fa fa-instagram"></i></a>
+        </li>
+        <li class="animate-intro" class="footer_social">
+            <a href="#" class="text-light "><i class="fa fa-dribbble"></i></a>
+        </li>
+     </ul> <!-- end home-social-list -->
      </div>
   </div>
 
