@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "metazae"
+  "defaultProject": "metazae",
+  "cli": {
+    "analytics": "b9b9f869-f57a-427c-9469-edf6270e62e0"
+  }
 }
