@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ami-board-time-table": {
+      "hosting": {
+        "metazae": [
+          "ami-board-time-table"
+        ]
+      }
+    }
+  }
+}

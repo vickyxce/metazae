@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+      "target": "https://script.google.com/macros/s/AKfycbwuiQwSqCO3QM3b7J-oBCscOFCNOMos3-Gh_lxDB3bwS8pQFGktQNmbrp--Qs6aDrBP/exec",
+      "secure": false,
+       "changeOrigin" : true,
+      "logLevel": "debug"
+  }
+}
